@@ -1,507 +1,507 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
       "PackagePath": "staticwebassets\\App.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\css\\checkbox.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\css\\checkbox.css",
       "PackagePath": "staticwebassets\\css\\checkbox.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\font-awesome.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\font-awesome.css",
       "PackagePath": "staticwebassets\\fonts\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\font-awesome.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\fonts\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\imgs\\img7.jpg",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\imgs\\img7.jpg",
       "PackagePath": "staticwebassets\\imgs\\img7.jpg"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\imgs\\logo.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\imgs\\logo.png",
       "PackagePath": "staticwebassets\\imgs\\logo.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\add.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\add.png",
       "PackagePath": "staticwebassets\\js\\images\\add.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\camera.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\camera.png",
       "PackagePath": "staticwebassets\\js\\images\\camera.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\check.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\check.png",
       "PackagePath": "staticwebassets\\js\\images\\check.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\close.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\close.png",
       "PackagePath": "staticwebassets\\js\\images\\close.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\connector.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\connector.gif",
       "PackagePath": "staticwebassets\\js\\images\\connector.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\copy.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\copy.png",
       "PackagePath": "staticwebassets\\js\\images\\copy.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\cut.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\cut.png",
       "PackagePath": "staticwebassets\\js\\images\\cut.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\delete2.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\delete2.png",
       "PackagePath": "staticwebassets\\js\\images\\delete2.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\dot.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\dot.gif",
       "PackagePath": "staticwebassets\\js\\images\\dot.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\export1.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\export1.png",
       "PackagePath": "staticwebassets\\js\\images\\export1.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\fit_to_size.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\fit_to_size.png",
       "PackagePath": "staticwebassets\\js\\images\\fit_to_size.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\gradient_background.jpg",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\gradient_background.jpg",
       "PackagePath": "staticwebassets\\js\\images\\gradient_background.jpg"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\green-dot.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\green-dot.gif",
       "PackagePath": "staticwebassets\\js\\images\\green-dot.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\group.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\group.png",
       "PackagePath": "staticwebassets\\js\\images\\group.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\handle-connect.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\handle-connect.png",
       "PackagePath": "staticwebassets\\js\\images\\handle-connect.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\handle-main.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\handle-main.png",
       "PackagePath": "staticwebassets\\js\\images\\handle-main.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\column.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\column.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\column.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\earth.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\earth.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\earth.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\gear.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\gear.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\gear.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\keys.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\keys.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\keys.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\mail_new.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\mail_new.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\mail_new.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\server.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\server.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\server.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\table.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\table.png",
       "PackagePath": "staticwebassets\\js\\images\\icons48\\table.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\key.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\key.png",
       "PackagePath": "staticwebassets\\js\\images\\key.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\loading.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\loading.gif",
       "PackagePath": "staticwebassets\\js\\images\\loading.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\navigate_minus.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\navigate_minus.png",
       "PackagePath": "staticwebassets\\js\\images\\navigate_minus.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\navigate_plus.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\navigate_plus.png",
       "PackagePath": "staticwebassets\\js\\images\\navigate_plus.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\paste.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\paste.png",
       "PackagePath": "staticwebassets\\js\\images\\paste.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\plus.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\plus.png",
       "PackagePath": "staticwebassets\\js\\images\\plus.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\press32.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\press32.png",
       "PackagePath": "staticwebassets\\js\\images\\press32.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\print32.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\print32.png",
       "PackagePath": "staticwebassets\\js\\images\\print32.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\printer.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\printer.png",
       "PackagePath": "staticwebassets\\js\\images\\printer.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\redo.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\redo.png",
       "PackagePath": "staticwebassets\\js\\images\\redo.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\sidebar_bg.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\sidebar_bg.gif",
       "PackagePath": "staticwebassets\\js\\images\\sidebar_bg.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\spacer.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\spacer.gif",
       "PackagePath": "staticwebassets\\js\\images\\spacer.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\toolbar_bg.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\toolbar_bg.gif",
       "PackagePath": "staticwebassets\\js\\images\\toolbar_bg.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\undo.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\undo.png",
       "PackagePath": "staticwebassets\\js\\images\\undo.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_1_1.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_1_1.png",
       "PackagePath": "staticwebassets\\js\\images\\view_1_1.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_1_132.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_1_132.png",
       "PackagePath": "staticwebassets\\js\\images\\view_1_132.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_next.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_next.png",
       "PackagePath": "staticwebassets\\js\\images\\view_next.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_previous.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_previous.png",
       "PackagePath": "staticwebassets\\js\\images\\view_previous.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\wires-grid.gif",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\wires-grid.gif",
       "PackagePath": "staticwebassets\\js\\images\\wires-grid.gif"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_in.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_in.png",
       "PackagePath": "staticwebassets\\js\\images\\zoom_in.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_in32.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_in32.png",
       "PackagePath": "staticwebassets\\js\\images\\zoom_in32.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_out.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_out.png",
       "PackagePath": "staticwebassets\\js\\images\\zoom_out.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_out32.png",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_out32.png",
       "PackagePath": "staticwebassets\\js\\images\\zoom_out32.png"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\gaming.csv",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\gaming.csv",
       "PackagePath": "staticwebassets\\uploads\\gaming.csv"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\hotel_reviews.csv",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\hotel_reviews.csv",
       "PackagePath": "staticwebassets\\uploads\\hotel_reviews.csv"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\research-and-development-survey-2022-csv-notes.csv",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\research-and-development-survey-2022-csv-notes.csv",
       "PackagePath": "staticwebassets\\uploads\\research-and-development-survey-2022-csv-notes.csv"
     },
     {
-      "Id": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\testing_csv_for_app.csv",
+      "Id": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\testing_csv_for_app.csv",
       "PackagePath": "staticwebassets\\uploads\\testing_csv_for_app.csv"
     },
     {

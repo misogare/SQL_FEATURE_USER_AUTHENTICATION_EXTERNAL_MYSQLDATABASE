@@ -1,4 +1,5 @@
 using App.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 var conectionstring = builder.Configuration.GetConnectionString("AppContext") ?? throw new InvalidOperationException("Connection string 'mooreContext' not found.");

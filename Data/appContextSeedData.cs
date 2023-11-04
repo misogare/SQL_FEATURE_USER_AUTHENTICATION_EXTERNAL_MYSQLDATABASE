@@ -7,8 +7,14 @@ namespace App.Data
     {
         public static void Seed(appContext context)
         {
+            if (context.UserLogins.Any())
+            {
+                return;   // DB has been seeded
+
+            }
             context.Database.EnsureCreated();
-            context.UserLogins.Add(new ApplicationUser
+            context.UserLogins.AddRange
+                (new ApplicationUser
             {
                 Username = "admin",
                 Password = "password",
@@ -16,6 +22,17 @@ namespace App.Data
                 FirstName = "Admin",
                 LastName = "User",
                 Role = "Admin"
+            },
+            new ApplicationUser()
+            {
+                Username = "User",
+                Password = "password",
+                Email = "User@example.com",
+                FirstName = "User",
+                LastName = "1234",
+                Role = "User"
+
+
             });
 
             context.SaveChanges();

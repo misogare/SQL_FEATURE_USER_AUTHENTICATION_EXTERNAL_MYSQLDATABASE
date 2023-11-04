@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = App
 build_property.RootNamespace = App
-build_property.ProjectDir = C:\Users\mesvak\OneDrive - Victoria University\appliedproj1\App (1)\App\
+build_property.ProjectDir = C:\Users\mesvak\Downloads\wew\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mesvak\OneDrive - Victoria University\appliedproj1\App (1)\App
+build_property.MSBuildProjectDirectory = C:\Users\mesvak\Downloads\wew\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Pages/Account/login.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Pages/Account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/CsvFileModels/Create.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/CsvFileModels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3N2RmlsZU1vZGVsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/CsvFileModels/Details.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/CsvFileModels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3N2RmlsZU1vZGVsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/CsvFileModels/Edit.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/CsvFileModels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3N2RmlsZU1vZGVsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/CsvFileModels/Index.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/CsvFileModels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3N2RmlsZU1vZGVsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/ERDDatas/Index.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/ERDDatas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRVJERGF0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/FileUpload/Index.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/FileUpload/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVVwbG9hZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Home1/Index.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Home1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZTFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Home/Contact.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Home/Index.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Home/Privacy.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Shared/Error.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/_ViewImports.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/_ViewStart.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mesvak/OneDrive - Victoria University/appliedproj1/App (1)/App/Views/Shared/_Layout.cshtml]
+[C:/Users/mesvak/Downloads/wew/SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-78367sr58w

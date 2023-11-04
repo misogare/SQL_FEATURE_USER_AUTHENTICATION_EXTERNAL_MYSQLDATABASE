@@ -5,7 +5,7 @@ using App.Data;
 using Microsoft.AspNetCore.Components;
 using System.Text;
 using System.Linq;
-
+using System.Security.Claims;
 
 namespace App.Controllers
 {
@@ -22,9 +22,18 @@ namespace App.Controllers
 
         // GET: ERDDatas
         public async Task<IActionResult> Index(int? fileId)
+
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (fileId.HasValue)
             {
+                // Check if the file belongs to the current user
+                var file = await _context.CsvFileModel.FindAsync(fileId);
+                if (file == null || file.UserId != userId)
+                {
+                    return NotFound();
+                }
+
                 // Store the fileId in session
                 HttpContext.Session.SetInt32("FileId", fileId.Value);
             }
@@ -50,13 +59,13 @@ namespace App.Controllers
                 // Add titles to ERDData as table names
                 foreach (var title in titles)
                 {
-                    var erdData = new ERDData { TableName = title, FileId = fileId.Value };
+                    var erdData = new ERDData { TableName = title, FileId = fileId.Value, UserId = userId };
                     _context.ERDData.Add(erdData);
                 }
                 await _context.SaveChangesAsync();
             }
 
-            List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId).ToListAsync();
+            List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId && e.UserId == userId).ToListAsync();
 
             // Create the search view model
             var viewModel = new SearchViewModel
@@ -186,7 +195,7 @@ namespace App.Controllers
             fileId = HttpContext.Session.GetInt32("FileId");
 
             // Remove existing ERDData for the current file
-            var existingERDData = _context.ERDData.Where(e => e.FileId == fileId);
+            var existingERDData = _context.ERDData.Where(e => e.FileId == fileId );
             _context.ERDData.RemoveRange(existingERDData);
             await _context.SaveChangesAsync();
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C7PVe4IrFg25rRD6jdokH5q4CG4mmmD1SHSPlIRfQII=",
+  "Hash": "PQyvKgdxn6fgFCFWHezjUv55rAufWxZKuefL4vmY0Bo=",
   "Source": "App",
   "BasePath": "_content/App",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "App\\wwwroot",
       "Source": "App",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App.styles.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App.styles.css",
       "SourceId": "App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/App",
       "RelativePath": "App.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
       "SourceId": "App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/App",
       "RelativePath": "App.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\css\\checkbox.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\css\\checkbox.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "css/checkbox.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\checkbox.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\css\\site.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\favicon.ico",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\font-awesome.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\font-awesome.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/font-awesome.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\font-awesome.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\font-awesome.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/font-awesome.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\imgs\\img7.jpg",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\imgs\\img7.jpg",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "imgs/img7.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\img7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\imgs\\logo.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\imgs\\logo.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "imgs/logo.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\add.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\add.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/add.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\add.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\camera.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\camera.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/camera.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\camera.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\check.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\check.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/check.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\check.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\close.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\close.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/close.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\close.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\connector.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\connector.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/connector.gif",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\connector.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\copy.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\copy.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/copy.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\copy.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\cut.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\cut.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/cut.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\cut.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\delete2.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\delete2.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/delete2.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\delete2.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\dot.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\dot.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/dot.gif",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\dot.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\export1.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\export1.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/export1.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\export1.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\fit_to_size.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\fit_to_size.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/fit_to_size.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\fit_to_size.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\gradient_background.jpg",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\gradient_background.jpg",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/gradient_background.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\gradient_background.jpg"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\green-dot.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\green-dot.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/green-dot.gif",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\green-dot.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\group.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\group.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/group.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\group.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\handle-connect.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\handle-connect.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/handle-connect.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\handle-connect.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\handle-main.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\handle-main.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/handle-main.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\handle-main.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\column.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\column.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/column.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\column.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\earth.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\earth.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/earth.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\earth.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\gear.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\gear.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/gear.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\gear.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\keys.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\keys.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/keys.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\keys.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\mail_new.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\mail_new.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/mail_new.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\mail_new.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\server.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\server.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/server.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\server.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\icons48\\table.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\icons48\\table.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/icons48/table.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\icons48\\table.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\key.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\key.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/key.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\key.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\loading.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\loading.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/loading.gif",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\navigate_minus.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\navigate_minus.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/navigate_minus.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\navigate_minus.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\navigate_plus.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\navigate_plus.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/navigate_plus.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\navigate_plus.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\paste.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\paste.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/paste.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\paste.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\plus.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\plus.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/plus.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\plus.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\press32.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\press32.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/press32.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\press32.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\print32.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\print32.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/print32.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\print32.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\printer.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\printer.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/printer.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\printer.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\redo.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\redo.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/redo.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\redo.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\sidebar_bg.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\sidebar_bg.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/sidebar_bg.gif",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\sidebar_bg.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\spacer.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\spacer.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/spacer.gif",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\spacer.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\toolbar_bg.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\toolbar_bg.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/toolbar_bg.gif",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\toolbar_bg.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\undo.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\undo.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/undo.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\undo.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_1_1.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_1_1.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/view_1_1.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\view_1_1.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_1_132.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_1_132.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/view_1_132.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\view_1_132.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_next.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_next.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/view_next.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\view_next.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\view_previous.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\view_previous.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/view_previous.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\view_previous.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\wires-grid.gif",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\wires-grid.gif",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/wires-grid.gif",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\wires-grid.gif"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_in.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_in.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/zoom_in.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\zoom_in.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_in32.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_in32.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/zoom_in32.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\zoom_in32.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_out.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_out.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/zoom_out.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\zoom_out.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\images\\zoom_out32.png",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\images\\zoom_out32.png",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/images/zoom_out32.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\images\\zoom_out32.png"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\js\\site.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\gaming.csv",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\gaming.csv",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "uploads/gaming.csv",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\gaming.csv"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\hotel_reviews.csv",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\hotel_reviews.csv",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "uploads/hotel_reviews.csv",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\hotel_reviews.csv"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\research-and-development-survey-2022-csv-notes.csv",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\research-and-development-survey-2022-csv-notes.csv",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "uploads/research-and-development-survey-2022-csv-notes.csv",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\research-and-development-survey-2022-csv-notes.csv"
     },
     {
-      "Identity": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\uploads\\testing_csv_for_app.csv",
+      "Identity": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\uploads\\testing_csv_for_app.csv",
       "SourceId": "App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\wwwroot\\",
       "BasePath": "_content/App",
       "RelativePath": "uploads/testing_csv_for_app.csv",
       "AssetKind": "All",

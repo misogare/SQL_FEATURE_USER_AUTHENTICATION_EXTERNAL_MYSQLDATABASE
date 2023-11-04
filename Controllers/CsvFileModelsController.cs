@@ -1,7 +1,7 @@
 ﻿using App.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using System.Security.Claims;
 
 namespace App.Controllers
 {
@@ -18,9 +18,9 @@ namespace App.Controllers
         // GET: CsvFileModels
         public async Task<IActionResult> Index()
         {
-            return _context.CsvFileModel != null ?
-                        View(await _context.CsvFileModel.ToListAsync()) :
-                        Problem("Entity set 'mooreContext.CsvFileModel'  is null.");
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userFiles = _context.CsvFileModel.Where(f => f.UserId == userId);
+            return View(await userFiles.ToListAsync());
         }
 
         // GET: CsvFileModels/Details/5
@@ -64,13 +64,16 @@ namespace App.Controllers
                     {
                         await viewModel.File.CopyToAsync(memoryStream);
                         fileData = memoryStream.ToArray();
+
                     }
 
                     // Create a CsvFileModel instance to store the file data
                     var csvFile = new CsvFileModel
                     {
                         FileName = viewModel.File.FileName,
-                        FileData = fileData
+                        FileData = fileData,
+                        UserId = User.FindFirstValue(ClaimTypes.NameIdentifier)
+
                     };
 
                     // Save the CsvFileModel instance to the database

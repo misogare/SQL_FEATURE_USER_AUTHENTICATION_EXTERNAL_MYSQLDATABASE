@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jI1fTabEdgpBCWqmqaecSn8XIyswB+d6PXWkhJf1+B8cV/TwCr1SsA2sNzPpxJ4CP4fP3eYmq8QA7d5P6255XA==",
+  "dgSpecHash": "xgKAW943RCeRAo+QqaV4YIR1WYVMy1NyPTEnvAqGI6E20i1kcsvbF1ncWiwltY4GHUdL0z9lvSCrFPBMc7F4ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mesvak\\OneDrive - Victoria University\\appliedproj1\\App (1)\\App\\App.csproj",
+  "projectFilePath": "C:\\Users\\mesvak\\Downloads\\wew\\SQL_FEATURE_USER_AUTHENTICATION_EXTERNAL_MYSQLDATABASE\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mesvak\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mesvak\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

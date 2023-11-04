@@ -8,4 +8,8 @@ public class CsvFileModel
     public string FileName { get; set; }
 
     public byte[] FileData { get; set; }
+    // Add UserId property
+    public string UserId { get; set; }
+
+   
 }

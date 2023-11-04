@@ -30,10 +30,10 @@ namespace App.Pages.Account
         public async Task<IActionResult> OnPostAsync()
         {
 
-            var userLogin = await _context.UserLogins.FirstOrDefaultAsync(l => l.Email == ApplicationUser.Email || l.Password == ApplicationUser.Password);
+            var userLogin = await _context.UserLogins.FirstOrDefaultAsync(l => l.Username == ApplicationUser.Username && l.Password == ApplicationUser.Password);
             if (userLogin == null)
             {
-                ModelState.AddModelError("Email", "Invalid email address.");
+                ModelState.AddModelError("Username", "Invalid Username address.");
                 return Page();
             }
 
@@ -47,6 +47,8 @@ namespace App.Pages.Account
             var claims = new List<Claim>
     {
         new Claim(ClaimTypes.Name, userLogin.Username),
+            new Claim(ClaimTypes.NameIdentifier, userLogin.Id.ToString()), // Add this line
+
         // Add other claims as needed
     };
 
