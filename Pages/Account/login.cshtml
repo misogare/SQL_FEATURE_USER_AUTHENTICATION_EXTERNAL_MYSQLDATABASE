@@ -1,0 +1,179 @@
+﻿@page "/login"
+@model App.Pages.Account.LoginModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    <head runat="server">
+        <title></title>
+        <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <style type="text/css">
+        .text-uppercase {
+            width: 245px;
+            margin-left: 144px;
+        }
+        #email {
+            width: 301px;
+            margin-left: 56px;
+            margin-top: 0px;
+        }
+        #password {
+            width: 304px;
+            margin-left: 24px;
+        }
+        .button {
+            width: 197px;
+            height: 35px;
+            margin-left: 567px;
+            margin-top: 4px;
+        }
+        #form {
+            width: 470px;
+            margin-left: 413px;
+        }
+        .auto-style3 {
+            width: 62%;
+            height: 230px;
+            margin-left: 370px;
+            margin-top: 50px;
+        }
+        .auto-style4 {
+            font-size: medium;
+            height: 123px;
+            width: 694px;
+        }
+        .auto-style5 {
+            width: 694px;
+        }
+        .auto-style6 {
+            height: 0px;
+            color: #3399FF;
+            background-color: #FFFFFF;
+        }
+        .auto-style7 {
+            margin-left: 123px;
+        }
+        .auto-style8 {
+            margin-left: 99px;
+            margin-top: 0;
+        }
+        .auto-style9 {
+            width: 100%;
+        }
+        .auto-style10 {
+            margin-left: 589px;
+            margin-top: 21px;
+        }
+        .auto-style11 {
+            width: 694px;
+            height: 63px;
+        }
+
+        
+
+        /*navbar */
+         #home {
+            padding: 30px;
+            font-size: x-large;
+            padding-left: 30px;
+        }
+        #navs{
+            padding-top: 20px;
+        }
+
+        #about {
+            padding: 30px;
+        }
+
+        #features {
+            padding: 30px;
+        }
+
+        #contact {
+            padding: 30px;
+        }
+
+        #login {
+            float: right;
+            text-align: right;
+            border: none;
+            border-radius: 20px;
+            color: black;
+            background-size: 100% auto;
+            font-family: inherit;
+            font-size: 17px;
+            padding: 15px;
+        }
+
+            #login:hover {
+                background-color: rgb(112, 112, 112);
+                color: azure
+            }
+
+        #speerd {
+            float: right;
+            text-align: right;
+            border: none;
+            border-radius: 20px;
+            color: black;
+            background-size: 100% auto;
+            font-family: inherit;
+            font-size: 17px;
+            padding: 15px;
+        }
+
+            #speerd:hover {
+                background-color: rgb(112, 112, 112);
+                color: azure
+            }
+
+        #logo {
+            padding: 1px;
+        }
+
+        .form-inline {
+            justify-content: right;
+            color: black;
+        }
+
+        #navbar {
+            overflow: hidden;
+            clear: both;
+        }
+        .auto-style12 {
+            margin-top: 9px;
+        }
+    </style>
+</head>
+    <form id="form1" method="post">
+        <div class="auto-style12">
+
+            <table class="auto-style3">
+                <tr>
+                    <td class="auto-style4">
+                        <h1>Login</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style11">
+                        Email: <input type="email" id="ApplicationUser_Email" name="ApplicationUser.Email" class="auto-style7" />
+                        <span asp-validation-for="ApplicationUser.Email" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">
+                        Password: <input type="ApplicationUser_Password" id="Password" name="ApplicationUser.Password" class="auto-style8" />
+                        <span asp-validation-for="ApplicationUser.Password" class="text-danger"></span>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <button type="submit" class="auto-style10">Submit</button>
+    </form>
+}

@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="~/fonts/font-awesome.css">
+<link rel="stylesheet" href="~/fonts/font-awesome.min.css">
+
+<style>
+
+    /*banner*/
+    .banner {
+        /*max-width: 2000px; */
+        padding-top: 10px;
+        padding-bottom: 30px;
+        /* background-color: #6b635b; */
+        background-color: #204c39;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    #banner_text {
+        align-items: center;
+        width: 690px;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 28px;
+    }
+    /* try speerd page */
+    .banner-container-speerd {
+        /* max-width: 2000px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* background-color: #6b635b; */
+        background-color: #4e4d4d;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    /* services */
+    .fa-leaf {
+        color: #a9c695;
+        font-size: 50px;
+    }
+
+    .fa-shopping-basket {
+        color: #a9c695;
+        font-size: 50px;
+    }
+
+    .fa-rocket {
+        color: #a9c695;
+        font-size: 50px;
+    }
+
+    .button {
+        border: none;
+        color: #fff;
+        border-radius: 20px;
+        color: black;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: 17px;
+        padding: 0.6em 1.5em;
+    }
+
+        .button:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+
+</style>
+
+<!-- banner -->
+<div class="banner-wrapper">
+    <div class="banner">
+        <div class="banner-img-wrapper">
+            <div class="banner-padding">
+                <div class="banner-abs">
+                    <div class="banner-abs-main">
+                        <div class="banner-inner-wrapper">
+                            <br /><br />
+                            <h1><b><i>Why Speerd?</i></b></h1>
+                            <br />
+                            <p id="banner_text">
+                                Speerd will be a free to use online website application tool that leverages current accessible APIs
+                                from lucid chart to allow users to upload CSV files and manually create ERD's with seamless ease.
+                            </p>
+                            <br />
+                            <!-- <img src="./logo.png" alt="Banner image"> -->
+
+                            <button class="button">Learn More</button>
+
+                            <a href="~/Register.aspx"><button class="button">Get Speerd</button></a>
+
+                            <br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- banner -->
+<br />
+
+<!-- Services -->
+<div class="container-fluid text-center py-5" id="services">
+    <div class="container">
+        <h1><b>OUR FEATURES</b></h1>
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="fa fa-leaf rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>Create</strong><br>
+                <p class="text-muted"> Users may enhance and streamline their data driven decision-making processes through our quick performing web application that creates professional looking diagrams.</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-shopping-basket rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>Goal</strong><br>
+                <p class="text-muted">Our goal is to convert an CSV file into a ERD for visualization and analysis. The ER diagram can be downloaded or edited as needed or required by the user purposes.</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-rocket rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>Collaborate</strong><br>
+                <p class="text-muted">
+                    Knowing
+                    our target audience of a back-end data work force means an educated guess of them
+                    knowing how to convert an excel worksheet for instance into a CSV file is very confident.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Services -->
+
+<br />

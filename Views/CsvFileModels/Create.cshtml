@@ -1,0 +1,25 @@
+﻿@model CsvFileviewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>CsvFileModel</h4>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="File">Select CSV File:</label>
+        <input type="file" class="form-control-file" id="FileData" name="File" accept=".csv">
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

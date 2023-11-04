@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CsvFileModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FileData)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FileName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FileData)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CsvFileModelID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CsvFileModelID">Details</a> |
+                <a asp-action="SQL" asp-route-id="@item.CsvFileModelID">SQL</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

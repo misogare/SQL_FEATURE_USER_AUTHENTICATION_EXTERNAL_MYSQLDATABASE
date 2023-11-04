@@ -1,0 +1,83 @@
+﻿@model SearchViewModel
+<link rel="stylesheet" href="~/css/site.css" />
+@{
+    var titles = ViewBag.Titles as string[];
+}
+
+<h1>Search</h1>
+<div class="row">
+    <div id="containercanvas" style="display:block; float: left;min-width:200px;min-height:200px;background-color:white;">
+        <canvas id="canvas" width=200 height=200 style="min-width:200px;min-height:200px;"></canvas>
+    </div>
+</div>
+
+
+@using (Html.BeginForm("Index", "erdDatas"))
+{
+    <div>
+        <label for="Query">Search Query:</label>
+        <input type="text" id="Query" name="query" value="@Model.Query" />
+    </div>
+
+    <button type="submit">Search</button>
+}
+@using (Html.BeginForm("Save", "erdDatas"))
+{
+    <button type="submit">Save</button>
+}
+@using (Html.BeginForm("ClearLog", "erdDatas"))
+{
+    <button type="submit">Clear Log</button>
+}
+@if (titles != null)
+{
+    @foreach (var title in titles)
+    {
+        <p>@title</p>
+    }
+}
+@if (Model.Results.Count > 0)
+{
+    <h2>Search Results:</h2>
+
+    <table>
+        <tbody>
+            @for (int i = 0; i < Model.Results.Count; i++)
+            {
+                int leftPosition = new Random().Next(0, 10000); // Generate a random left position between 0 and 800
+                int topPosition = new Random().Next(0, 6000); // Generate a random top position between 0 and 400
+
+                <tr>
+                    <td>
+                        <div class="table-container" style="left: @leftPosition px; top: @topPosition px;">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Table Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@Model.Results[i].TableName</td>
+                                    </tr>
+                                    @foreach (var element in Model.Results[i].Elements)
+                                    {
+                                        <tr>
+                                            <td>@element.Name</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+else
+{
+    <p>No results found.</p>
+}
+
