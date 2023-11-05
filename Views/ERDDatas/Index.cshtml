@@ -3,7 +3,9 @@
 @{
     var titles = ViewBag.Titles as string[];
 }
-
+@{
+    var erdData = ViewBag.ERDData as List<ERDData>;
+}
 <h1>Search</h1>
 <div class="row">
     <div id="containercanvas" style="display:block; float: left;min-width:200px;min-height:200px;background-color:white;">
@@ -34,6 +36,14 @@
     @foreach (var title in titles)
     {
         <p>@title</p>
+    }
+}
+@if (erdData != null)
+{
+    @foreach (var erd in erdData)
+    {
+
+        <p>@erd.Id</p>
     }
 }
 @if (Model.Results.Count > 0)

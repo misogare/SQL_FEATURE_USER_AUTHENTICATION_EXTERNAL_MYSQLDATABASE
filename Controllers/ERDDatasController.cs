@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components;
 using System.Text;
 using System.Linq;
 using System.Security.Claims;
+using System.Text.RegularExpressions;
 
 namespace App.Controllers
 {
@@ -66,6 +67,7 @@ namespace App.Controllers
             }
 
             List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId && e.UserId == userId).ToListAsync();
+            ViewBag.ERDData = erdDataList;
 
             // Create the search view model
             var viewModel = new SearchViewModel
@@ -79,8 +81,12 @@ namespace App.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(SearchViewModel viewModel)
         {
+            string pattern = @"^(INSERT INTO ERDData \(TableName,FileId,UserId\) VALUES \('.*',\d+,\d+\)(, \('.*',\d+,\d+\))*;|DELETE FROM ERDData WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;|UPDATE ERDData SET TableName = '.*' WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;)$";
+            string pattern1 = @"^(INSERT INTO Elements \(ERDDataId, Name\) VALUES \(\d+,'.*'\)(, \(\d+,'.*'\))*;|DELETE FROM Elements WHERE Name = '.*' AND ERDDataId = \d+ ;|UPDATE Elements SET Name = '.*' WHERE Name = '.*' AND ERDDataId = \d+ ;)$";
             List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).ToListAsync();
             string query = viewModel.Query;
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var fileId = HttpContext.Session.GetInt32("FileId");
             if (string.IsNullOrWhiteSpace(query) || query.Equals("select *", StringComparison.OrdinalIgnoreCase))
             {
                 // Return all ERD data
@@ -97,15 +103,108 @@ namespace App.Controllers
             }
 
 
-            else
+            else if (Regex.IsMatch(query, pattern, RegexOptions.IgnoreCase))
             {
 
+                // Check if the query matches the allowed commands
+               
+                    int queryFileId;
+                    int queryUserId;
+
+                    // Extract the FileId and UserId from the query
+                    if (query.StartsWith("INSERT INTO", StringComparison.OrdinalIgnoreCase))
+                    {
+                    // Extract the FileId and UserId from the INSERT INTO statement
+                    var matches = Regex.Matches(query, @"VALUES \('.*',(\d+),(\d+)\)");
+                    foreach (Match match in matches)
+                    {
+                        queryFileId = int.Parse(match.Groups[1].Value);
+                        queryUserId = int.Parse(match.Groups[2].Value);
+
+                        // Check if the FileId and UserId belong to the current user
+                        if (queryFileId != fileId || queryUserId.ToString() != userId)
+                        {
+                            // If any FileId or UserId does not belong to the user, stop the operation
+                            return BadRequest("Invalid FileId or UserId");
+                        }
+                    }
+                }
+                    else
+                    {
+                        // Extract the FileId and UserId from the DELETE or UPDATE statement
+                        queryFileId = int.Parse(Regex.Match(query, @"FileId = (\d+)").Groups[1].Value);
+                        queryUserId = int.Parse(Regex.Match(query, @"UserId = (\d+)").Groups[1].Value);
+                    if (queryFileId != fileId || queryUserId.ToString() != userId)
+                    {
+                        // If any FileId or UserId does not belong to the user, stop the operation
+                        return BadRequest("Invalid FileId or UserId");
+                    }
+                }
+                     
+                   
                 var searchResults = _context.Database.ExecuteSqlRaw(query);
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
+                         
+                        
+
+                             
+
 
             }
+            else if (Regex.IsMatch(query, pattern1, RegexOptions.IgnoreCase))
+                {
+                int queryERDDataId;
+
+                if (query.StartsWith("INSERT INTO", StringComparison.OrdinalIgnoreCase))
+                {
+                    var matches = Regex.Matches(query, @"VALUES \((\d+),'.*'\)");
+                    foreach (Match match in matches)
+                    {
+                        queryERDDataId = int.Parse(match.Groups[1].Value);
+
+                        // Check if the ERDDataId belongs to the current user and file
+                        var erdData = await _context.ERDData.FindAsync(queryERDDataId);
+                        if (erdData == null || erdData.FileId != fileId || erdData.UserId != userId)
+                        {
+                            // If any ERDDataId does not belong to the user, stop the operation
+                            return BadRequest("Invalid ERDDataId");
+                        }
+
+
+
+                    }
+                }
+                else
+                {
+
+                    queryERDDataId = int.Parse(Regex.Match(query, @"ERDDataId = (\d+)").Groups[1].Value);
+                    var erdData = await _context.ERDData.FindAsync(queryERDDataId);
+                    if (erdData == null || erdData.FileId != fileId || erdData.UserId != userId)
+                    {
+                        // If any ERDDataId does not belong to the user, stop the operation
+                        return BadRequest("Invalid ERDDataId");
+                    }
+                }
+                
+
+                // Check if the ERDDataId belongs to the current user and file
+              
+                    var searchResults = _context.Database.ExecuteSqlRaw(query);
+                    await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
+              
+              
+            }
+            else
+            {
+
+                return NotFound();
+            }
+
+
             return View(viewModel);
 
 
@@ -185,7 +284,10 @@ namespace App.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> ClearLog()
+
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             var fileId = HttpContext.Session.GetInt32("FileId");
             if (!fileId.HasValue)
             {
@@ -195,7 +297,7 @@ namespace App.Controllers
             fileId = HttpContext.Session.GetInt32("FileId");
 
             // Remove existing ERDData for the current file
-            var existingERDData = _context.ERDData.Where(e => e.FileId == fileId );
+            var existingERDData = _context.ERDData.Where(e => e.FileId == fileId && e.UserId == userId);
             _context.ERDData.RemoveRange(existingERDData);
             await _context.SaveChangesAsync();
 
@@ -205,6 +307,8 @@ namespace App.Controllers
         [HttpPost]
         public async Task<IActionResult> Save()
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             // Retrieve the fileId from session
             var fileId = HttpContext.Session.GetInt32("FileId");
             if (!fileId.HasValue)
@@ -213,7 +317,7 @@ namespace App.Controllers
             }
 
             // Get the ERDData for the current file
-            var erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId).ToListAsync();
+            var erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId && e.UserId == userId).ToListAsync();
 
             // Convert the ERDData to a CSV string
             var csvData = ConvertERDDataToCsv(erdDataList);
