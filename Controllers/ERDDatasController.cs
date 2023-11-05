@@ -81,7 +81,7 @@ namespace App.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(SearchViewModel viewModel)
         {
-            string pattern = @"^(INSERT INTO ERDData \(TableName,FileId,UserId\) VALUES \('.*',\d+,\d+\)(, \('.*',\d+,\d+\))*;|DELETE FROM ERDData WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;|UPDATE ERDData SET TableName = '.*' WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;)$";
+            string pattern = @"^(INSERT INTO ERDData \((TableName),(FileId),(UserId)\) VALUES \('.*',\d+,\d+\)*;|DELETE FROM ERDData WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;|UPDATE ERDData SET TableName = '.*' WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;)$";
             string pattern1 = @"^(INSERT INTO Elements \(ERDDataId, Name\) VALUES \(\d+,'.*'\)(, \(\d+,'.*'\))*;|DELETE FROM Elements WHERE Name = '.*' AND ERDDataId = \d+ ;|UPDATE Elements SET Name = '.*' WHERE Name = '.*' AND ERDDataId = \d+ ;)$";
             List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).ToListAsync();
             string query = viewModel.Query;
@@ -114,20 +114,28 @@ namespace App.Controllers
                     // Extract the FileId and UserId from the query
                     if (query.StartsWith("INSERT INTO", StringComparison.OrdinalIgnoreCase))
                     {
-                    // Extract the FileId and UserId from the INSERT INTO statement
-                    var matches = Regex.Matches(query, @"VALUES \('.*',(\d+),(\d+)\)");
+                    // Extract the order of columns from the INSERT INTO statement
+                    var columnOrder = Regex.Match(query, @"INSERT INTO ERDData \((TableName),(FileId),(UserId)\)").Groups;
+
+                    var matches = Regex.Matches(query, @"VALUES \('(.*?)',(\d+),(\d+)\)");
                     foreach (Match match in matches)
                     {
-                        queryFileId = int.Parse(match.Groups[1].Value);
-                        queryUserId = int.Parse(match.Groups[2].Value);
+                        var values = match.Groups;
+
+                        // Map the values to the columns based on the order
+                        var record = new Dictionary<string, string>();
+                        for (int i = 1; i <= 3; i++)
+                        {
+                            record[columnOrder[i].Value] = values[i].Value;
+                        }
 
                         // Check if the FileId and UserId belong to the current user
-                        if (queryFileId != fileId || queryUserId.ToString() != userId)
+                        if (int.Parse(record["FileId"]) != fileId || int.Parse(record["UserId"]).ToString() != userId)
                         {
                             // If any FileId or UserId does not belong to the user, stop the operation
                             return BadRequest("Invalid FileId or UserId");
                         }
-                    }
+                      }
                 }
                     else
                     {
