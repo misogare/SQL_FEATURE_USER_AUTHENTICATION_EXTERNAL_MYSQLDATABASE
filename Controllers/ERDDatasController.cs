@@ -25,12 +25,16 @@ namespace App.Controllers
         public async Task<IActionResult> Index(int? fileId)
 
         {
+            List<ERDData> erdDataList;
+
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+
             if (fileId.HasValue)
             {
                 // Check if the file belongs to the current user
                 var file = await _context.CsvFileModel.FindAsync(fileId);
-                if (file == null || file.UserId != userId)
+                if ((file == null || file.UserId != userId) && userRole != "Admin")
                 {
                     return NotFound();
                 }
@@ -52,7 +56,6 @@ namespace App.Controllers
             string[] titles = csvData.Split('\n')[0].Split(',');
             ViewBag.Titles = titles;
 
-            // Remove existing ERDData for the current file
             var existingERDData = _context.ERDData.Where(e => e.FileId == fileId);
 
             if (!existingERDData.Any())
@@ -66,7 +69,16 @@ namespace App.Controllers
                 await _context.SaveChangesAsync();
             }
 
-            List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId && e.UserId == userId).ToListAsync();
+            if (userRole == "Admin")
+            {
+                // If the user is an admin, get all ERDData for the file
+                erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId).ToListAsync();
+            }
+            else
+            {
+                // If the user is not an admin, only get their own ERDData
+                erdDataList = await _context.ERDData.Include(e => e.Elements).Where(e => e.FileId == fileId && e.UserId == userId).ToListAsync();
+            }
             ViewBag.ERDData = erdDataList;
 
             // Create the search view model
@@ -86,6 +98,8 @@ namespace App.Controllers
             List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).ToListAsync();
             string query = viewModel.Query;
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+
             var fileId = HttpContext.Session.GetInt32("FileId");
             if (string.IsNullOrWhiteSpace(query) || query.Equals("select *", StringComparison.OrdinalIgnoreCase))
             {
@@ -115,26 +129,20 @@ namespace App.Controllers
                     if (query.StartsWith("INSERT INTO", StringComparison.OrdinalIgnoreCase))
                     {
                     // Extract the order of columns from the INSERT INTO statement
-                    var columnOrder = Regex.Match(query, @"INSERT INTO ERDData \((TableName),(FileId),(UserId)\)").Groups;
 
                     var matches = Regex.Matches(query, @"VALUES \('(.*?)',(\d+),(\d+)\)");
                     foreach (Match match in matches)
                     {
-                        var values = match.Groups;
+                      
+                            queryFileId = int.Parse(match.Groups[2].Value);
+                            queryUserId = int.Parse(match.Groups[3].Value);
 
-                        // Map the values to the columns based on the order
-                        var record = new Dictionary<string, string>();
-                        for (int i = 1; i <= 3; i++)
-                        {
-                            record[columnOrder[i].Value] = values[i].Value;
-                        }
-
-                        // Check if the FileId and UserId belong to the current user
-                        if (int.Parse(record["FileId"]) != fileId || int.Parse(record["UserId"]).ToString() != userId)
-                        {
+                            // Check if the FileId and UserId belong to the current user
+                            if (queryFileId != fileId || queryUserId.ToString() != userId)
+                            {
                             // If any FileId or UserId does not belong to the user, stop the operation
                             return BadRequest("Invalid FileId or UserId");
-                        }
+                             }
                       }
                 }
                     else
@@ -205,6 +213,13 @@ namespace App.Controllers
                     return RedirectToAction(nameof(Index));
               
               
+            }
+            else if (userRole == "Admin")
+            {
+                var searchResults = _context.Database.ExecuteSqlRaw(query);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
             }
             else
             {

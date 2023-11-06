@@ -48,6 +48,7 @@ namespace App.Pages.Account
     {
         new Claim(ClaimTypes.Name, userLogin.Username),
             new Claim(ClaimTypes.NameIdentifier, userLogin.Id.ToString()), // Add this line
+             new Claim(ClaimTypes.Role, userLogin.Role)
 
         // Add other claims as needed
     };
