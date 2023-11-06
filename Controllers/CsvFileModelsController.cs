@@ -19,8 +19,21 @@ namespace App.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var userFiles = _context.CsvFileModel.Where(f => f.UserId == userId);
-            return View(await userFiles.ToListAsync());
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            IQueryable<CsvFileModel> files;
+
+            if (userRole == "Admin")
+            {
+                files = _context.CsvFileModel;
+
+            }
+            else
+            {
+                files = _context.CsvFileModel.Where(f => f.UserId == userId);
+
+
+            }
+            return View(await files.ToListAsync());
         }
 
         // GET: CsvFileModels/Details/5
@@ -115,7 +128,33 @@ namespace App.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var csvFileModel = await _context.CsvFileModel
+                .FirstOrDefaultAsync(m => m.CsvFileModelID == id);
+            if (csvFileModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(csvFileModel);
+        }
+
+        // POST: CsvFileModels/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var csvFileModel = await _context.CsvFileModel.FindAsync(id);
+            _context.CsvFileModel.Remove(csvFileModel);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
         private bool CsvFileModelExists(int id)
         {
             return (_context.CsvFileModel?.Any(e => e.CsvFileModelID == id)).GetValueOrDefault();
