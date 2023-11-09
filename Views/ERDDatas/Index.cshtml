@@ -5,47 +5,175 @@
 }
 @{
     var erdData = ViewBag.ERDData as List<ERDData>;
+    var erdDataJson = Newtonsoft.Json.JsonConvert.SerializeObject(erdData);
+
 }
+
+<style>
+    body {
+        background-color: #ffcc99; /* Light orange background */
+    }
+
+    table {
+        background-color: #fff; /* White background for tables */
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .title-cell {
+        width: 20%;
+    }
+
+    .erd-cell {
+        width: 25%;
+    }
+
+    .empty-title-cell {
+        display: none;
+    }
+
+    /* Style for the user query area */
+    .user-query-area {
+        background-color: #28a745; /* Green background for user query area */
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .user-query-label {
+        color: #fff; /* White text for query label */
+        font-weight: bold;
+    }
+
+    .user-query-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .user-query-button {
+        padding: 10px;
+        background-color: #ffc107; /* Yellow background for query button */
+        color: #fff; /* White text for query button */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .animated-button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        margin-right: 10px; /* Add margin to separate the buttons */
+    }
+
+        .animated-button:hover {
+            background-color: #45a049;
+        }
+
+        .animated-button::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+
+        .animated-button:hover::after {
+            transform: scaleX(1);
+        }
+
+    .button-row {
+        display: flex; /* Use flexbox to align the buttons in a row */
+    }
+
+    .sql-command-input {
+        width : 50%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #f8f8f8;
+        cursor: pointer;
+        font-family: monospace;
+    }
+
+    .sql-command-input:hover {
+        background-color: #e8e8e8;
+    }
+
+ 
+
+</style>
+
 <h1>Search</h1>
-<div class="row">
-    <div id="containercanvas" style="display:block; float: left;min-width:200px;min-height:200px;background-color:white;">
-        <canvas id="canvas" width=200 height=200 style="min-width:200px;min-height:200px;"></canvas>
-    </div>
-</div>
-
-
 @using (Html.BeginForm("Index", "erdDatas"))
 {
-    <div>
-        <label for="Query">Search Query:</label>
-        <input type="text" id="Query" name="query" value="@Model.Query" />
+    <div class="user-query-area">
+        <label class="user-query-label" for="Query">Enter your SQL query:</label>
+        <input type="text" id="Query" name="query" class="user-query-input" value="@Model.Query" />
+        <button type="submit" class="user-query-button">Execute</button>
     </div>
+}
 
-    <button type="submit">Search</button>
-}
-@using (Html.BeginForm("Save", "erdDatas"))
-{
-    <button type="submit">Save</button>
-}
-@using (Html.BeginForm("ClearLog", "erdDatas"))
-{
-    <button type="submit">Clear Log</button>
-}
-@if (titles != null)
-{
-    @foreach (var title in titles)
-    {
-        <p>@title</p>
-    }
-}
-@if (erdData != null)
-{
-    @foreach (var erd in erdData)
-    {
+<div id="sql-commands">
+    <!-- SQL commands will be inserted here -->
+</div>
 
-        <p>@erd.Id</p>
+<div class="button-row">
+    @using (Html.BeginForm("Save", "erdDatas"))
+    {
+        <button type="submit" class="animated-button">Save</button>
     }
+
+    @using (Html.BeginForm("ClearLog", "erdDatas"))
+    {
+        <button type="submit" class="animated-button">Clear Log</button>
+    }
+
+</div>
+
+@if (titles != null && erdData != null)
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Id</th>
+        <th>UserId</th>
+        <th>FileId</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (int i = 0; i < erdData.Count(); i++)
+      {
+        <tr>
+                    <td>@(i < titles.Count() ? titles[i] : "No title")</td>
+                    <td>@erdData[i].Id</td>
+          <td>@erdData[i].UserId</td>
+          <td>@erdData[i].FileId</td>
+        </tr>
+      }
+    </tbody>
+  </table>
 }
+
 @if (Model.Results.Count > 0)
 {
     <h2>Search Results:</h2>
@@ -63,7 +191,7 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>Table Name</th>
+                                        <th>Table</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -81,13 +209,76 @@
                         </div>
                     </td>
                 </tr>
+                }
+            </tbody>
+
+        </table>
+        }
+
+<script>
+    var userRole = '@ViewBag.UserRole'; // Get the user role from ViewBag
+    var userId = '@ViewBag.UserId';
+    var FileId = '@ViewBag.FileId';
+    var erdData = @Html.Raw(erdDataJson);
+
+    var sqlCommands = [
+        { commandType: 'ERDData', userType: 'User', command: "INSERT INTO ERDData (TableName,FileId,UserId) VALUES ('table3'," + FileId + "," + userId + "), ('table4'," + FileId + "," + userId + "), ('table5'," + FileId + "," + userId + ");" },
+        { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (FileId,TableName,UserId) VALUES (" + FileId + ",'table3'," + userId + "), (" + FileId + ",'table4'," + userId + "), (" + FileId + ",'table5'," + userId + ");" },
+        { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (TableName,FileId,UserId) VALUES ('table3'," + FileId + "," + userId + "), ('table4'," + FileId + "," + userId + "), ('table5'," + FileId + "," + userId + ");" },
+        { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (UserId,TableName,FileId) VALUES (" + userId + ",'table3'," + FileId + "), (" + userId + ",'table4'," + FileId + "), (" + userId + ",'table5'," + FileId + ");" },
+        { commandType: 'Elements', userType: 'User', command: "INSERT INTO Elements (ERDDataId, Name) VALUES (_, 'test3'),(_,'test4');" },
+        { commandType: 'Elements', userType: 'Admin', command: "INSERT INTO Elements (Name,ERDDataId) VALUES ('test3',_),('test4',_);" },
+        { commandType: 'Elements', userType: '', command: "DELETE FROM elements WHERE Name = 'element2' AND ERDDataid = _;" },
+        { commandType: 'ERDData', userType: '', command: "DELETE FROM ERDData WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
+        { commandType: 'ERDData', userType: '', command: "UPDATE ERDData SET TableName = 'Test4' WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
+        { commandType: 'Elements', userType: '', command: "UPDATE elements SET Name = 'element2' WHERE Name = 'element4' and erddataid = _" },
+
+
+        // Add more commands here...
+    ];
+
+    var commandsContainer = document.getElementById('sql-commands');
+
+    sqlCommands.forEach(function (command) {
+        // Only add the command if it matches the user role
+        if (command.userType === userRole || command.userType === '') {
+            var commandElement = document.createElement('div');
+            var commandInput = document.createElement('input');
+            commandInput.value = command.command;
+            commandInput.className = 'sql-command-input';
+
+            commandElement.appendChild(commandInput);
+
+            // Only add the dropdown if the command type is 'Elements'
+            if (command.commandType === 'Elements') {
+                var erdDataSelect = document.createElement('select');
+                erdData.forEach(function (data) {
+                    var option = document.createElement('option');
+                    option.value = data.Id;
+                    option.text = data.Id; // This will be the visible text
+
+                    erdDataSelect.appendChild(option);
+                });
+                erdDataSelect.className = 'erd-data-select';
+
+                commandElement.appendChild(erdDataSelect);
             }
-        </tbody>
 
-    </table>
-}
-else
-{
-    <p>No results found.</p>
-}
+            var copyButton = document.createElement('button');
+            copyButton.textContent = 'Copy';
+            copyButton.onclick = function () {
+                var commandToCopy = command.command;
+                // Only replace the ERDDataId if the command type is 'Elements'
+                if (command.commandType === 'Elements') {
+                    commandToCopy = commandToCopy.replace(/_/g, erdDataSelect.value);
+                }
+                navigator.clipboard.writeText(commandToCopy);
+                alert('SQL command copied to clipboard!');
+            };
 
+            commandElement.appendChild(copyButton);
+            commandsContainer.appendChild(commandElement);
+        }
+    });
+
+</script>

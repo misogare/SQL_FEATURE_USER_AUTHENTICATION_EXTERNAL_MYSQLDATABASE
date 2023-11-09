@@ -29,6 +29,10 @@ namespace App.Controllers
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            ViewBag.UserRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            ViewBag.userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            ViewBag.FileId = fileId;
+           
 
             if (fileId.HasValue)
             {
@@ -46,15 +50,18 @@ namespace App.Controllers
             {
                 // Retrieve the fileId from session
                 fileId = HttpContext.Session.GetInt32("FileId");
+
             }
             if (!fileId.HasValue)
             {
                 return NotFound();
             }
             var csvFileModel = await _context.CsvFileModel.FindAsync(fileId);
+
             var csvData = ConvertCsvFileToString(csvFileModel.FileData);
             string[] titles = csvData.Split('\n')[0].Split(',');
             ViewBag.Titles = titles;
+
 
             var existingERDData = _context.ERDData.Where(e => e.FileId == fileId);
 
@@ -93,6 +100,7 @@ namespace App.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(SearchViewModel viewModel)
         {
+
             string pattern = @"^(INSERT INTO ERDData \((TableName),(FileId),(UserId)\) VALUES \('.*',\d+,\d+\)*;|DELETE FROM ERDData WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;|UPDATE ERDData SET TableName = '.*' WHERE TableName = '.*' AND FileId = \d+ AND UserId = \d+ ;)$";
             string pattern1 = @"^(INSERT INTO Elements \(ERDDataId, Name\) VALUES \(\d+,'.*'\)(, \(\d+,'.*'\))*;|DELETE FROM Elements WHERE Name = '.*' AND ERDDataId = \d+ ;|UPDATE Elements SET Name = '.*' WHERE Name = '.*' AND ERDDataId = \d+ ;)$";
             List<ERDData> erdDataList = await _context.ERDData.Include(e => e.Elements).ToListAsync();
@@ -234,6 +242,8 @@ namespace App.Controllers
         }
         private List<ERDData> SearchERDData(string query)
         {
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+
             // Perform the search logic based on the query
             // You can implement your custom search logic here based on the query
 
@@ -283,7 +293,7 @@ namespace App.Controllers
 
 
             //  }
-            else
+            else if(userRole == "Admin")
             {
                 var searchResults = _context.ERDData.FromSqlRaw(query);
                 // Perform the search logic based on the query
@@ -292,6 +302,10 @@ namespace App.Controllers
 
                 return searchResults.ToList();
 
+            }
+            else
+            {
+                throw new Exception("User role is not Admin");
             }
 
 
@@ -325,7 +339,7 @@ namespace App.Controllers
             await _context.SaveChangesAsync();
 
             // Redirect to the Index action to reload the original data
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { fileId = fileId });
         }
         [HttpPost]
         public async Task<IActionResult> Save()
@@ -355,7 +369,7 @@ namespace App.Controllers
             _context.Update(csvFileModel);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { fileId = fileId });
         }
         private string ConvertERDDataToCsv(List<ERDData> erdDataList)
         {
