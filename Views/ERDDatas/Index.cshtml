@@ -1,11 +1,12 @@
-﻿@model SearchViewModel
+﻿@using Newtonsoft.Json;
+@model SearchViewModel
 <link rel="stylesheet" href="~/css/site.css" />
 @{
     var titles = ViewBag.Titles as string[];
 }
 @{
     var erdData = ViewBag.ERDData as List<ERDData>;
-    var erdDataJson = Newtonsoft.Json.JsonConvert.SerializeObject(erdData);
+    var erdDataJson = Newtonsoft.Json.JsonConvert.SerializeObject(erdData, Formatting.Indented, new JsonSerializerSettings { ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore });
 
 }
 
@@ -118,7 +119,22 @@
         background-color: #e8e8e8;
     }
 
- 
+    .copy-button {
+        background-color: #4CAF50; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Align the text to the center */
+        text-decoration: none; /* Remove the text decoration */
+        display: inline-block; /* Display as inline-block */
+        font-size: 10px; /* Set the font size */
+        margin: 4px 2px; /* Set the margin */
+        cursor: pointer; /* Change the cursor to a hand when hovering over the button */
+    }
+
+    .copy-button:hover {
+        background-color: #45a049; /* Change the background color when hovering over the button */
+    }
+
 
 </style>
 
@@ -232,8 +248,7 @@
         { commandType: 'ERDData', userType: '', command: "DELETE FROM ERDData WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
         { commandType: 'ERDData', userType: '', command: "UPDATE ERDData SET TableName = 'Test4' WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
         { commandType: 'Elements', userType: '', command: "UPDATE elements SET Name = 'element2' WHERE Name = 'element4' and erddataid = _" },
-
-
+        { commandType: 'ERDData', userType: 'Admin', command: "SELECT * FROM ERDData WHERE TableName = 'Table1' AND UserId = " + userId + " AND FileId = " + FileId + "; " },
         // Add more commands here...
     ];
 
@@ -266,6 +281,7 @@
 
             var copyButton = document.createElement('button');
             copyButton.textContent = 'Copy';
+            copyButton.className = 'copy-button'; // Add the class to the button
             copyButton.onclick = function () {
                 var commandToCopy = command.command;
                 // Only replace the ERDDataId if the command type is 'Elements'

@@ -135,14 +135,24 @@ namespace App.Controllers
                 return NotFound();
             }
 
-            var csvFileModel = await _context.CsvFileModel
-                .FirstOrDefaultAsync(m => m.CsvFileModelID == id);
+            var csvFileModel = await _context.CsvFileModel.FirstOrDefaultAsync(m => m.CsvFileModelID == id);
             if (csvFileModel == null)
             {
                 return NotFound();
             }
 
-            return View(csvFileModel);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+
+            // Check if the user is an admin or the owner of the file
+            if (userRole == "Admin" || csvFileModel.UserId == userId)
+            {
+                return View(csvFileModel);
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
 
         // POST: CsvFileModels/Delete/5
