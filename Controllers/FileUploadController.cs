@@ -2,8 +2,9 @@
 using App.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
-namespace App.Controllers
+namespace App.Controllers 
 {
     public class FileUploadController : Controller
     {
@@ -38,8 +39,19 @@ Returns:
 
         public async Task<IActionResult> Index(int? fileId)
         {
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
             if (fileId.HasValue)
             {
+               
+                var file = await _context.CsvFileModel.FindAsync(fileId);
+
+                if ((file == null || file.UserId != userId) && userRole != "Admin")
+                {
+                    return RedirectToAction("Error", "Home", new { statusCode = 404 });
+
+                }
                 // Store the fileId in session
                 HttpContext.Session.SetInt32("FileId", fileId.Value);
             }
@@ -50,7 +62,7 @@ Returns:
             }
             if (!fileId.HasValue)
             {
-                return NotFound();
+                return RedirectToAction("Error", "Home", new { statusCode = 404 });
             }
             var csvFileModel = await _context.CsvFileModel.FindAsync(fileId);
 
@@ -99,7 +111,7 @@ Returns:
                             fields.Add(fieldModel);
                         }
                     }
-                   
+
                 }
             }
 

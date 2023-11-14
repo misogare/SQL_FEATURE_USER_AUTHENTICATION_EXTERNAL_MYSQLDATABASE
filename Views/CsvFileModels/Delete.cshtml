@@ -4,17 +4,89 @@
     ViewData["Title"] = "Delete";
 }
 
-<h2>Delete</h2>
+<style>
+
+    h1 {
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
+
+    #button3 {
+        background-color: #f44336;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 19px;
+        margin: 8px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        color: white;
+    }
+
+        #button3:hover {
+            background-color: #D3D3D3;
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            color: black;
+        }
+
+    .button {
+        border: none;
+        background-color: #e5e5e5;
+        border-radius: 20px;
+        color: black;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: 17px;
+        padding: 0.6em 1.5em;
+    }
+
+        .button:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+
+    #table {
+        background-color: #E8EDEB;
+        border-radius: 20px;
+        margin: 8px 2px;
+        border: none;
+        padding: 20px 12px;
+        display: inline-grid;
+        width: 350px;
+        overflow: hidden;
+    }
+
+        #table:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+</style>
+
+
+<div class="container">
+<h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
     <h4>CsvFileModel</h4>
     <hr />
-    <dl class="row">
+        <dl class="row" id="table">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FileName)
         </dt>
-        <dd class="col-sm-10">
+            <dd class="col-sm-10">
             @Html.DisplayFor(model => model.FileName)
         </dd>
     </dl>
@@ -24,8 +96,9 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-danger" /> |
-            @Html.ActionLink("Back to List", "Index")
+                <input id="button3" type="submit" value="Delete" class="btn btn-danger" /> |
+                <a class="button" asp-action="Index">Back to List</a>
         </div>
     }
+</div>
 </div>

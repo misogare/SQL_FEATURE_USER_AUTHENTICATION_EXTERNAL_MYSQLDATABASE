@@ -3,8 +3,20 @@
     ViewData["Title"] = "Error";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h1 class="text-danger">Error @Model.StatusCode</h1>
+
+@if (Model.StatusCode == 403)
+{
+    <h2 class="text-danger">Sorry, you do not have permission to access this page.</h2>
+}
+else if (Model.StatusCode == 404)
+{
+    <h2 class="text-danger">Sorry, the page you are looking for could not be found.</h2>
+}
+else
+{
+    <h2 class="text-danger">An error occurred while processing your request.</h2>
+}
 
 @if (Model.ShowRequestId)
 {

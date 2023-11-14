@@ -4,13 +4,90 @@
     ViewData["Title"] = "Details";
 }
 
+<style>
+
+    h1 {
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
+
+    #button {
+        background-color: #04AA6D;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 19px;
+        margin: 8px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        color: white;
+    }
+
+        #button:hover {
+            background-color: #D3D3D3;
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            color: black;
+        }
+
+    .button {
+        border: none;
+        background-color: #e5e5e5;
+        border-radius: 20px;
+        color: black;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: 17px;
+        padding: 0.6em 1.5em;
+    }
+
+        .button:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+
+    #table {
+        background-color: #E8EDEB;
+        border-radius: 20px;
+        margin: 8px 2px;
+        border: none;
+        padding: 20px 12px;
+        display: inline-grid;
+        width: 550px;
+        overflow: hidden;
+    }
+
+        #table:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+    dt{
+        font-size: 20px;
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
+   
+
+</style>
+
+<div class="container">
 <h1>Details</h1>
 
 <div>
     <h4>CsvFileModel</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
+        <dl class="row" id="table">
+        <dt class = "col-lg-2">
             @Html.DisplayNameFor(model => model.FileName)
         </dt>
         <dd class = "col-sm-10">
@@ -25,6 +102,8 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.CsvFileModelID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a id="button" asp-action="Edit" asp-route-id="@Model?.CsvFileModelID">Edit</a> |
+        <a class="button" asp-action="Index">Back to List</a>
+</div>
+
 </div>

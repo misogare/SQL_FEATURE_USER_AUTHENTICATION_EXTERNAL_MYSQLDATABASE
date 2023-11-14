@@ -1,29 +1,25 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 public class ApplicationUser
 {
     public int Id { get; set; } // Unique identifier for the user
 
-    [Required]
+    [Required(ErrorMessage = "Username is required")]
     [MaxLength(50)]
     public string Username { get; set; }
 
     [Required]
-    [MaxLength(100)]
+    [DataType(DataType.Password)]
+    [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$",
+        ErrorMessage = "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one numeric digit, and one special character.")]
     public string Password { get; set; }
 
-    [Required]
+    [Required(ErrorMessage = "Email is required")]
+    [EmailAddress(ErrorMessage = "Invalid email address")]
     [MaxLength(100)]
-    [EmailAddress]
     public string Email { get; set; }
 
-    [MaxLength(50)]
-    public string FirstName { get; set; }
-
-    [MaxLength(50)]
-    public string LastName { get; set; }
-
-    [Required]
-    [MaxLength(50)]
+    [Required(ErrorMessage = "Role is required")]
+    [MaxLength(10)]
     public string Role { get; set; }
 }

@@ -11,5 +11,4 @@ public class CsvFileModel
     // Add UserId property
     public string UserId { get; set; }
 
-   
-}
+   }

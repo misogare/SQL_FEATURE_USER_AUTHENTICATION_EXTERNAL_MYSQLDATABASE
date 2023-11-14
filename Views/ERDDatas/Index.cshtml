@@ -11,8 +11,13 @@
 }
 
 <style>
+
+    h1 {
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
     body {
-        background-color: #ffcc99; /* Light orange background */
+        background-color: #E8EDEB; /* Light orange background */
+        padding-left: 20px;
     }
 
     table {
@@ -60,11 +65,20 @@
 
     .user-query-button {
         padding: 10px;
-        background-color: #ffc107; /* Yellow background for query button */
+        background-color: #949494; /* Yellow background for query button */
         color: #fff; /* White text for query button */
         border: none;
         border-radius: 5px;
         cursor: pointer;
+    }
+
+    .user-query-button:hover {
+            background-color: #D3D3D3;
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            color: black;
     }
 
     .animated-button {
@@ -106,7 +120,7 @@
     }
 
     .sql-command-input {
-        width : 50%;
+        width: 50%;
         border: 1px solid #ccc;
         padding: 10px;
         margin: 10px 0;
@@ -115,9 +129,9 @@
         font-family: monospace;
     }
 
-    .sql-command-input:hover {
-        background-color: #e8e8e8;
-    }
+        .sql-command-input:hover {
+            background-color: #e8e8e8;
+        }
 
     .copy-button {
         background-color: #4CAF50; /* Set the background color */
@@ -131,10 +145,9 @@
         cursor: pointer; /* Change the cursor to a hand when hovering over the button */
     }
 
-    .copy-button:hover {
-        background-color: #45a049; /* Change the background color when hovering over the button */
-    }
-
+        .copy-button:hover {
+            background-color: #45a049; /* Change the background color when hovering over the button */
+        }
 
 </style>
 
@@ -144,7 +157,9 @@
     <div class="user-query-area">
         <label class="user-query-label" for="Query">Enter your SQL query:</label>
         <input type="text" id="Query" name="query" class="user-query-input" value="@Model.Query" />
+        <br /> <br />
         <button type="submit" class="user-query-button">Execute</button>
+        <br />
     </div>
 }
 
@@ -160,34 +175,36 @@
 
     @using (Html.BeginForm("ClearLog", "erdDatas"))
     {
-        <button type="submit" class="animated-button">Clear Log</button>
+        <button type="submit" class="animated-button1">Clear Log</button>
     }
 
 </div>
 
+<br />
+
 @if (titles != null && erdData != null)
 {
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Id</th>
-        <th>UserId</th>
-        <th>FileId</th>
-      </tr>
-    </thead>
-    <tbody>
-      @for (int i = 0; i < erdData.Count(); i++)
-      {
-        <tr>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Id</th>
+                <th>UserId</th>
+                <th>FileId</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < erdData.Count(); i++)
+            {
+                <tr>
                     <td>@(i < titles.Count() ? titles[i] : "No title")</td>
                     <td>@erdData[i].Id</td>
-          <td>@erdData[i].UserId</td>
-          <td>@erdData[i].FileId</td>
-        </tr>
-      }
-    </tbody>
-  </table>
+                    <td>@erdData[i].UserId</td>
+                    <td>@erdData[i].FileId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
 @if (Model.Results.Count > 0)
@@ -213,6 +230,7 @@
                                 <tbody>
                                     <tr>
                                         <td>@Model.Results[i].TableName</td>
+                                         <td>@Model.Results[i].UserId</td>
                                     </tr>
                                     @foreach (var element in Model.Results[i].Elements)
                                     {
@@ -225,11 +243,11 @@
                         </div>
                     </td>
                 </tr>
-                }
-            </tbody>
+            }
+        </tbody>
 
-        </table>
-        }
+    </table>
+}
 
 <script>
     var userRole = '@ViewBag.UserRole'; // Get the user role from ViewBag
@@ -242,12 +260,13 @@
         { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (FileId,TableName,UserId) VALUES (" + FileId + ",'table3'," + userId + "), (" + FileId + ",'table4'," + userId + "), (" + FileId + ",'table5'," + userId + ");" },
         { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (TableName,FileId,UserId) VALUES ('table3'," + FileId + "," + userId + "), ('table4'," + FileId + "," + userId + "), ('table5'," + FileId + "," + userId + ");" },
         { commandType: 'ERDData', userType: 'Admin', command: "INSERT INTO ERDData (UserId,TableName,FileId) VALUES (" + userId + ",'table3'," + FileId + "), (" + userId + ",'table4'," + FileId + "), (" + userId + ",'table5'," + FileId + ");" },
-        { commandType: 'Elements', userType: 'User', command: "INSERT INTO Elements (ERDDataId, Name) VALUES (_, 'test3'),(_,'test4');" },
+        { commandType: 'Elements', userType: 'User', command: "INSERT INTO Elements (ERDDataId, Name) VALUES (_,'test3'),(_,'test4');" },
         { commandType: 'Elements', userType: 'Admin', command: "INSERT INTO Elements (Name,ERDDataId) VALUES ('test3',_),('test4',_);" },
-        { commandType: 'Elements', userType: '', command: "DELETE FROM elements WHERE Name = 'element2' AND ERDDataid = _;" },
-        { commandType: 'ERDData', userType: '', command: "DELETE FROM ERDData WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
-        { commandType: 'ERDData', userType: '', command: "UPDATE ERDData SET TableName = 'Test4' WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + ";" },
-        { commandType: 'Elements', userType: '', command: "UPDATE elements SET Name = 'element2' WHERE Name = 'element4' and erddataid = _" },
+        { commandType: 'Elements', userType: 'Admin', command: "DELETE FROM elements WHERE Name = 'element2' AND ERDDataid = _;" },
+        { commandType: 'Elements', userType: 'User', command: "DELETE FROM Elements WHERE Name = 'test3' AND ERDDataId = _ ;" },
+        { commandType: 'ERDData', userType: '', command: "DELETE FROM ERDData WHERE TableName = 'table3' AND FileId = " + FileId + " AND UserId = " + userId + " ;" },
+        { commandType: 'ERDData', userType: '', command: "UPDATE ERDData SET TableName = 'Test4' WHERE TableName = 'table3' AND UserId = " + userId + " AND FileId = " + FileId + " ;" },
+        { commandType: 'Elements', userType: '', command: "UPDATE elements SET Name = 'element2' WHERE Name = 'element4' and ERDDataId = _ ;" },
         { commandType: 'ERDData', userType: 'Admin', command: "SELECT * FROM ERDData WHERE TableName = 'Table1' AND UserId = " + userId + " AND FileId = " + FileId + "; " },
         // Add more commands here...
     ];

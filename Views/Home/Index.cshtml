@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewBag.Title = "Index";
 }
 <link rel="stylesheet" href="~/fonts/font-awesome.css">
@@ -27,6 +27,10 @@
     .button {
         font-size: 28px;
     }
+
+    h1 {
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
     /* try speerd page */
     .banner-container-speerd {
         /* max-width: 2000px; */
@@ -39,6 +43,9 @@
     }
 
     /* services */
+    #services{
+        background-color: #E8EDEB;
+    }
     .fa-leaf {
         color: #a9c695;
         font-size: 50px;
@@ -87,15 +94,14 @@
                             <h1><b><i>Why Speerd?</i></b></h1>
                             <br />
                             <p id="banner_text">
-                                Speerd will be a free to use online website application tool that leverages current accessible APIs
-                                from lucid chart to allow users to upload CSV files and manually create ERD's with seamless ease.
+                                Speerd is an intuitive diagramming tool allowing data orientated specialists to create ER diagrams in a matter of seconds.
                             </p>
                             <br />
                             <!-- <img src="./logo.png" alt="Banner image"> -->
 
-                            <button class="button">Learn More</button>
+                            <a asp-controller="Home" asp-action="LearnMore"><button class="button">Learn More</button></a>
 
-                            <a href="~/Register.aspx"><button class="button">Get Speerd</button></a>
+                            <a asp-page="/Account/register"><button class="button">Get Speerd</button></a>
 
                             <br /><br />
                         </div>
@@ -107,7 +113,6 @@
 </div>
 
 <!-- banner -->
-<br />
 
 <!-- Services -->
 <div class="container-fluid text-center py-5" id="services">
@@ -121,14 +126,12 @@
             </div>
             <div class="col-sm-4">
                 <i class="fa fa-shopping-basket rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>Goal</strong><br>
-                <p class="text-muted">Our goal is to convert an CSV file into a ERD for visualization and analysis. The ER diagram can be downloaded or edited as needed or required by the user purposes.</p>
+                <p class="text-muted">Our goal is is to create a data orientated services environment. To provide useful, present solutions to ever evolving data technology needs.</p>
             </div>
             <div class="col-sm-4">
-                <i class="fa fa-rocket rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>Collaborate</strong><br>
+                <i class="fa fa-rocket rounded-circle p-4 m-4" aria-hidden="true"></i><br><strong>SQL Editor</strong><br>
                 <p class="text-muted">
-                    Knowing
-                    our target audience of a back-end data work force means an educated guess of them
-                    knowing how to convert an excel worksheet for instance into a CSV file is very confident.
+                    The speerd SQL Editor allows users to make changes to their files before the ER process. 
                 </p>
             </div>
         </div>

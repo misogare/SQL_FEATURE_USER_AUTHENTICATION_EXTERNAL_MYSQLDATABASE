@@ -1,11 +1,12 @@
 ﻿@model List<App.Models.FieldModel>
-
-
-
-
-
-
-
+<!--
+ER Diagramming Editor.
+Created by Matthew Walton.
+This page is the front end logic for the ER Diagramming Editor
+After uploading a CSV to the system, it allows users to click attributes and append them to tables
+the tables then become distiguishable to the lines that are drawn to form relationships
+in the end the user can capture the image which momentarily hides useless information to the ER diagram context
+-->
 
 <div class="attribute-selection">
     <h7 class="DiagrammingHeaders">Fields and Datatypes</h7>
@@ -23,7 +24,7 @@
     <hr>
     <h7 class="DiagrammingHeaders">Add Fields and Datatypes</h7>
     <div class="custom-attribute-input">
-        <input type="text" id="customAttributeName" placeholder="Attribute Name" style="width: 1rem;">
+        <input type="text" id="customAttributeName" placeholder="Attribute Name" style="width: 10rem;">
         <select id="customAttributeType">
             <option value="string">String</option>
             <option value="int">Integer</option>
@@ -31,7 +32,7 @@
             <option value="date">Date</option>
             <option value="float">Float</option>
             <option value="bool">Boolean</option>
-        </select><br>
+        </select><br><br />
         <button type="button" onclick="addCustomField()" class="func-button">Add Attribute</button>
     </div>
 </div>
@@ -39,7 +40,7 @@
 
 <div class="relationship-selection">
     <h7 class="DiagrammingHeaders">Relationships<br /></h7>
-    <label for="startTable">Start Table:</label>
+    <label for="startTable">Start Table: </label>
     <select id="startTable"></select>
     <br />
     <label for="endTable">End Table:</label>
@@ -47,54 +48,57 @@
     <br />
     <label for="relationshipType"><br />Relationship Type:</label>
     <select id="relationshipType">
+        <br />
         <option value="one-to-one">One-to-One</option>
         <option value="one-to-many">One-to-Many</option>
         <option value="many-to-one">Many-to-One</option>
         <option value="many-to-many">Many-to-Many</option>
     </select>
-    <br>
-    <button onclick="addRelationship()" class="func-button" >Add Relationship</button>
+    <br><br />
+    <button onclick="addRelationship()" class="func-button">Add Relationship</button>
     <hr>
 
     <div class="relationship-log-container">
         <h7>Relationship Log:</h7>
-        <button onclick="clearRelationshipLog()" class="func-button" >Clear Log</button>
+        <button onclick="clearRelationshipLog()" class="func-button">Clear Log</button>
         <div class="relationship-log"></div>
     </div>
 </div>
 
 
 <div class="diagramAndbuttons">
-<div class="diagramming-environment">
-    <div id="tables-container"></div>
-    <g id="tablesLayer" style="pointer-events: all;"></g> <!-- This is where the tables will be appended -->
+    <div class="diagramming-environment">
+        <div id="tables-container"></div>
+        <g id="tablesLayer" style="pointer-events: all;"></g> <!-- This is where the tables will be appended -->
 
         <svg id="relationships" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
             <defs>
                 <!-- Marker for One-to-One relationships (Cross) -->
                 <marker id="cross" markerWidth="20" markerHeight="20" refX="10" refY="10" orient="auto" markerUnits="userSpaceOnUse">
-                    <line x1="0" y1="10" x2="30" y2="10" stroke="white" stroke-width="10" stroke-opacity="0" />
-                    <line x1="0" y1="10" x2="20" y2="10" stroke="black" stroke-width="2" />
-                    <line x1="10" y1="0" x2="10" y2="20" stroke="black" stroke-width="2" />
+                    <line x1="0" y1="10" x2="20" y2="10" stroke="white" stroke-width="6" /> <!-- Thicker white outline -->
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="white" stroke-width="6" />
+                    <line x1="0" y1="10" x2="20" y2="10" stroke="black" stroke-width="3" /> <!-- Thicker black line -->
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="black" stroke-width="3" />
                 </marker>
-
 
                 <!-- Marker for One-to-Many and Many-to-Many relationships (Crow's Feet facing away, bigger) -->
                 <marker id="crowfeet" markerWidth="60" markerHeight="60" refX="56" refY="30" orient="auto" markerUnits="userSpaceOnUse">
-                    <path d="M0,30 L60,30 M60,20 L30,30 L60,40" fill="none" stroke="#000" stroke-width="2" />
+                    <path d="M0,30 L60,30 M60,20 L30,30 L60,40" fill="none" stroke="white" stroke-width="6" />
+                    <path d="M0,30 L60,30 M60,20 L30,30 L60,40" fill="none" stroke="black" stroke-width="3" />
                 </marker>
 
                 <!-- Marker for reverse Many-to-One (i.e., crow's feet facing line, bigger) -->
                 <marker id="crowfeet-reverse" markerWidth="60" markerHeight="60" refX="4" refY="30" orient="auto" markerUnits="userSpaceOnUse">
-                    <path d="M60,30 L0,30 M0,20 L30,30 L0,40" fill="none" stroke="#000" stroke-width="2" />
+                    <path d="M60,30 L0,30 M0,20 L30,30 L0,40" fill="none" stroke="white" stroke-width="6" />
+                    <path d="M60,30 L0,30 M0,20 L30,30 L0,40" fill="none" stroke="black" stroke-width="3" />
                 </marker>
             </defs>
 
             <g id="linesLayer"></g> <!-- This is where the lines will be appended -->
 
         </svg>
-</div>
-   
+    </div>
+
 
 
 
@@ -115,29 +119,29 @@
 
 
 <style>
- 
+
 
     html, body {
         margin: 0;
         padding: 0;
         height: 100%;
         overflow: hidden;
-        background: linear-gradient(to bottom right, #ffa585, #ff8989);
+        background: #E8EDEB;
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         width: 100% !important;
         max-width: 100% !important;
+        padding-left: 20px;
     }
 
 
 
 
-    .DiagrammingHeaders{
+    .DiagrammingHeaders {
         font-weight: bold;
     }
 
     .attribute-selection, .diagramming-environment .relationship-selection {
-        
         margin: 0rem;
         box-sizing: border-box;
         background: #9fccfa;
@@ -153,7 +157,6 @@
         border-right: 0;
         font-size: 0.90em;
         overflow-y: auto;
-
     }
 
 
@@ -163,7 +166,7 @@
         padding: 0.5rem;
         border: 0.125rem solid #000;
         border-top-width: 0.125rem;
-        border-right:0;
+        border-right: 0;
         height: 80vh;
         font-size: 0.90em;
         overflow-y: auto;
@@ -174,7 +177,7 @@
         float: left;
         width: calc(70% - 2*0.625rem);
         padding: 0.625rem;
-        border: 0.125rem solid #000;     
+        border: 0.125rem solid #000;
         box-sizing: border-box;
         position: relative;
         height: 80vh;
@@ -183,7 +186,6 @@
         background-size: 1.25rem 1.25rem;
         transform-origin: 0 0;
         overflow: hidden;
-
     }
 
     .diagram&buttons {
@@ -200,9 +202,9 @@
         gap: 0.625rem;
     }
 
-    .customAttributeName{
+    #customAttributeName {
+        margin-bottom: 1rem;
     }
-
 
     .table-container {
         position: absolute;
@@ -213,31 +215,31 @@
         border-radius: 0.5rem;
         font-size: 0.90em;
     }
-    .table-container:hover {
-            box-shadow: 0 0 10px yellow;
-        }       
 
-    .table-container:hover {
+        .table-container:hover {
+            box-shadow: 0 0 10px yellow;
+        }
+
+        .table-container:hover {
             outline: 0.125rem solid #a09f9f;
-    }
+        }
 
     .table-name-input {
         display: none;
-        width: 9.375rem; 
+        width: 9.375rem;
         padding: 0.3125rem;
         border-bottom: 0.01rem solid #000;
-        z-index:2;
+        z-index: 2;
     }
+
     th {
-        
         color: black;
-        text-align: center; 
-        padding: 0.5rem; 
+        text-align: center;
+        padding: 0.5rem;
         border-bottom: 0.125rem solid black;
-        
     }
+
     td {
-        
         text-align: left;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -247,7 +249,6 @@
         td:nth-child(2) {
             width: 7rem;
             text-align: right;
-            
             border-left: 0.125rem solid black;
         }
 
@@ -262,25 +263,25 @@
         .table-settings:hover {
             color: #333; /* Darkens the icon when hovered over to indicate it's interactive */
         }
+
     .button-options {
         display: flex;
-        width: fit-content;     
-        background-color: red;
+        width: fit-content;
         margin: 0 auto;
         display: inline-block;
-        margin-left: 30rem;
-        padding: .2rem;
+        margin-left: 70rem;
+        padding: .5rem;
     }
 
-     .clear-button, .capture-button-download, .capture-button-save, .deleteLineButton {
+    .clear-button, .capture-button-download, .capture-button-save, .deleteLineButton {
         z-index: 1000;
-        scroll-margin-inline: 1.0rem;
         border: 0.125rem solid #000;
-        padding: 0.3125rem 0.625rem;
+        padding: .3125rem 0.625rem;
         border-radius: 0.3125rem;
+        margin-right: 1rem;
     }
 
-    
+
     .func-button {
         border: 0.0625rem solid #000;
         padding: 0.3125rem 0.625rem;
@@ -288,8 +289,8 @@
     }
 
     .capture-button:hover, .clear-button:hover, .capture-button-download:hover, .capture-button-save:hover, .deleteLineButton:hover {
-            box-shadow: rgba(0, 0, 0, 0.25) 0 0.5rem 0.625rem;
-            transform: translateY(-0.0625rem);
+        box-shadow: rgba(0, 0, 0, 0.25) 0 0.5rem 0.625rem;
+        transform: translateY(-0.0625rem);
     }
 
 </style>
@@ -302,13 +303,13 @@
 
 
     // Function Name: addTable
-    // Description: This function adds a new table to the interface. 
-    // It calculates the next table number, creates a unique table container ID, 
-    // prompts the user for a custom table name or uses a default name, and then populates the table with selected fields. 
-    // It also handles the addition of SVG icons for table deletion, 
+    // Description: This function adds a new table to the interface.
+    // It calculates the next table number, creates a unique table container ID,
+    // prompts the user for a custom table name or uses a default name, and then populates the table with selected fields.
+    // It also handles the addition of SVG icons for table deletion,
     // clears checkbox states, makes the new table draggable, and updates various data structures in the interface.
-    
-    
+
+
     function addTable() {
         var tableNumber = $('.table-container').length + 1;
         var tableContainerId = 'table-container-' + tableNumber;
@@ -362,19 +363,19 @@
     }
 
 
-   
-    
+
+
     // Function Name: getDeleteSvg
-    // Description: This function generates an SVG icon for deletion based on the provided type ('table' or 'row'). 
+    // Description: This function generates an SVG icon for deletion based on the provided type ('table' or 'row').
     // The generated SVG icon includes an onclick event to trigger the deleteElement function when clicked.
- 
+
     function getDeleteSvg(type) {
         return '<svg onclick="deleteElement(this, \'' + type + '\')" class="delete-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" id="IconChangeColor" style="float:right; cursor:pointer;"> <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" id="mainIconPathAttribute"></path> </svg>';
     }
 
 
     // Function Name: deleteElement
-    // Description: This function handles the deletion of elements based on the provided type ('row' or 'table'). 
+    // Description: This function handles the deletion of elements based on the provided type ('row' or 'table').
     // If the type is 'row', it removes the closest table row. If the type is 'table', it removes the closest table container.
 
     function deleteElement(element, type) {
@@ -386,7 +387,7 @@
     }
 
     // Function Name: handlePrimaryKeyCheckboxChange
-    // Description: This function handles the change event when a primary key checkbox is checked. 
+    // Description: This function handles the change event when a primary key checkbox is checked.
     // It ensures that only one primary key can be selected within the same table container by unchecking previously selected primary key checkboxes.
     function handlePrimaryKeyCheckboxChange(checkbox) {
         var isChecked = $(checkbox).is(':checked');
@@ -400,7 +401,7 @@
 
     // Function Name: handleForeignKeyCheckboxChange
     // Description: This function handles the change event when a foreign key checkbox is checked or unchecked.
-    // It adds a class 'foreign-key-row' to the corresponding table row if the 
+    // It adds a class 'foreign-key-row' to the corresponding table row if the
     // checkbox is checked, and removes the class if the checkbox is unchecked.
 
     function handleForeignKeyCheckboxChange(checkbox) {
@@ -416,7 +417,7 @@
 
 
     // Function Name: toggleTableNameInput
-    // Description: This function toggles between displaying a table name and an editable input field for the table name. 
+    // Description: This function toggles between displaying a table name and an editable input field for the table name.
     // It allows the user to edit the table name in-place. When activated, it adds the 'editing' class to the table name element,
     //  displays the input field, and sets focus for editing. When deactivated, it removes the 'editing' class and displays the updated table name.
 
@@ -437,9 +438,9 @@
 
 
     // Function Name: updateTableName
-    // Description: This function updates the table name based on user input in an editable input field. 
-    // It replaces the old table name with the new one, removes the 'editing' class from the table name element, 
-    // hides the input field, and updates the table name in the tableArray if found. 
+    // Description: This function updates the table name based on user input in an editable input field.
+    // It replaces the old table name with the new one, removes the 'editing' class from the table name element,
+    // hides the input field, and updates the table name in the tableArray if found.
     // It also triggers an update of table dropdowns.
 
 
@@ -462,8 +463,8 @@
 
 
     // Function Name: makeTableDraggable
-    // Description: This function enables the dragging of a table within a diagramming environment. 
-    // When the user clicks and drags the table, it calculates the new position, constrains it inside the container, 
+    // Description: This function enables the dragging of a table within a diagramming environment.
+    // When the user clicks and drags the table, it calculates the new position, constrains it inside the container,
     // and updates the table's position accordingly. Additionally, it updates the lines connected to the table as it's being dragged.
 
     function makeTableDraggable(table) {
@@ -500,11 +501,11 @@
         });
     }
 
-    
+
 
     // Function Name: addCustomField
-    // Description: This function adds a custom field to the interface. It retrieves the attribute name and type from input elements, 
-    // validates the attribute name to ensure it's not empty, and creates a new div to represent the attribute. 
+    // Description: This function adds a custom field to the interface. It retrieves the attribute name and type from input elements,
+    // validates the attribute name to ensure it's not empty, and creates a new div to represent the attribute.
     // It appends the attribute div to the attributes list and optionally clears the input fields for the next input.
     function addCustomField() {
         const attributeName = document.getElementById("customAttributeName").value;
@@ -538,19 +539,19 @@
         // Optionally, clear the input fields for the next input
         document.getElementById("customAttributeName").value = "";
     }
-  
+
     // Make existing tables draggable
     $('.table-container').each(function () {
         makeTableDraggable($(this));
-        selectedTables.push($(this)); 
+        selectedTables.push($(this));
         updateTableDropdowns();
     });
 
 
     // Function Name: updateTableDropdowns
-    // Description: This function updates the table selection dropdowns in the interface. 
-    // It clears the previous options, iterates through the existing table containers, 
-    // and adds each table name as an option to both the startTable and endTable dropdowns. 
+    // Description: This function updates the table selection dropdowns in the interface.
+    // It clears the previous options, iterates through the existing table containers,
+    // and adds each table name as an option to both the startTable and endTable dropdowns.
     // It also logs messages to indicate the update process, and automatically selects the first and second tables in the dropdowns.
 
     function updateTableDropdowns() {
@@ -590,11 +591,11 @@
 
 
 
-   
+
     // Function Name: calculateConnectionPoint
     // Description: This function calculates the connection point on a table element based on the specified side
     // ('top', 'bottom', 'left', 'right'). It computes the position based on the table's offset and dimensions,
-    //  and adjusts it if there are existing relationship lines at the same position. The function returns the 
+    //  and adjusts it if there are existing relationship lines at the same position. The function returns the
     // calculated connection point as an object with x and y coordinates.
 
     function calculateConnectionPoint(table, side) {
@@ -633,8 +634,8 @@
 
 
     // Function Name: calculateTablePosition
-    // Description: This function calculates the center position of a table container element. 
-    // It retrieves the position, width, and height of the table container and computes the center point, 
+    // Description: This function calculates the center position of a table container element.
+    // It retrieves the position, width, and height of the table container and computes the center point,
     // returning it as an object with x and y coordinates.
 
     function calculateTablePosition(tableContainer) {
@@ -645,10 +646,10 @@
     }
 
 
-  
-   /* Function Name: addRelationship
-    Description: This function adds a relationship between two tables in the interface. 
-    It retrieves the selected start and end table names, as well as the relationship type, and then calculates the connection points, draws the lines, and updates the relationship log. */
+
+    /* Function Name: addRelationship
+     Description: This function adds a relationship between two tables in the interface.
+     It retrieves the selected start and end table names, as well as the relationship type, and then calculates the connection points, draws the lines, and updates the relationship log. */
 
 
     function addRelationship() {
@@ -681,7 +682,7 @@
         drawConnectingLine(startPos, startSide, endPos, endSide);
 
         //Add the relationship to the log
-        
+
         var relationshipLog = $(".relationship-log");
         var relationshipLogEntry = document.createElement("div");
         relationshipLogEntry.innerText = "Start Table: " + startTableName + "\nEnd Table: " + endTableName + "\nType: " + relationshipType;
@@ -693,12 +694,12 @@
 
     /*
     Function Name: drawConnectingLine
-    Description: 
-        This function draws a connecting line between two tables on the SVG canvas for relationships. 
+    Description:
+        This function draws a connecting line between two tables on the SVG canvas for relationships.
         It takes the starting and ending positions (startPos and endPos) along with their respective sides (startSide and endSide),
-        and draws a line connecting them. It adjusts the positions to account for the small lines that 
+        and draws a line connecting them. It adjusts the positions to account for the small lines that
         extend from the tables before drawing the connecting line.
-*/
+    */
     function drawConnectingLine(startPos, startSide, endPos, endSide) {
         var svg = document.getElementById('relationships');
 
@@ -737,10 +738,10 @@
         svg.appendChild(line);
     }
 
-   // Function Name: drawSmallLineWithMarker
-   // Description: 
-   // This function draws a small line with an SVG marker at a specified position and side. It is used to represent the start or end of a relationship line between tables in the interface. The function calculates the endpoint of the small 
-  //  line based on the given position, side, and relationship type. It also determines the appropriate SVG marker based on the relationship type and whether it's a starting or ending line.
+    // Function Name: drawSmallLineWithMarker
+    // Description:
+    // This function draws a small line with an SVG marker at a specified position and side. It is used to represent the start or end of a relationship line between tables in the interface. The function calculates the endpoint of the small
+    //  line based on the given position, side, and relationship type. It also determines the appropriate SVG marker based on the relationship type and whether it's a starting or ending line.
     function drawSmallLineWithMarker(pos, side, relationshipType, isStart) {
         var svg = document.getElementById('relationships');
 
@@ -796,11 +797,11 @@
 
 
     // Function Name: determineConnectionSide
-   // Description:
-   // This function determines the side of a table where a connection should be made with another table. It calculates the centers of the start and 
-   // end tables and computes the angle of the line between them. Based on the angle, it returns one of the following sides: 'top', 'bottom', 'left', or 'right', indicating where the connection should occur.
-    
-        function determineConnectionSide(startTable, endTable) {
+    // Description:
+    // This function determines the side of a table where a connection should be made with another table. It calculates the centers of the start and
+    // end tables and computes the angle of the line between them. Based on the angle, it returns one of the following sides: 'top', 'bottom', 'left', or 'right', indicating where the connection should occur.
+
+    function determineConnectionSide(startTable, endTable) {
         const startCenterX = startTable.offsetLeft + (startTable.offsetWidth / 2);
         const startCenterY = startTable.offsetTop + (startTable.offsetHeight / 2);
         const endCenterX = endTable.offsetLeft + (endTable.offsetWidth / 2);
@@ -821,13 +822,13 @@
         }
     }
 
-  
+
 
 
 
     //Button's Functional at bottom of page
 
-   //clear log button clears the log
+    //clear log button clears the log
     function clearRelationshipLog() {
         $('.relationship-log').empty();
     }
@@ -847,7 +848,7 @@
 
         // clear the SVG definitions
         var svg = document.getElementById("relationships");
-        var defs = svg.getElementsByTagName("defs")[0]; 
+        var defs = svg.getElementsByTagName("defs")[0];
         while (svg.lastChild && svg.lastChild !== defs) {
             svg.removeChild(svg.lastChild);
         }
@@ -855,8 +856,8 @@
         // Clear the tableArray to remove references to the old tables
         tableArray = [];
 
-   clearRelationshipLog()
-       
+        clearRelationshipLog()
+
     }
 
     // clear the lines on the page only as well as the log
@@ -968,13 +969,13 @@
     }
 
     /*
-Function Name: revertTableAfterImage
-Description:
+    Function Name: revertTableAfterImage
+    Description:
     This function reverts the tables to their original state after image export. It restores the visibility of settings icons, delete buttons, cell content, primary key and foreign key checkboxes, and labels.
 
-Note: This function is used after exporting tables as images to restore their original appearance and functionality.
+    Note: This function is used after exporting tables as images to restore their original appearance and functionality.
 
-*/
+    */
     function revertTableAfterImage() {
         $('.table-container').each(function () {
             var table = $(this).find('table');
@@ -998,25 +999,5 @@ Note: This function is used after exporting tables as images to restore their or
             $('.pk-label, .fk-label').show();
         });
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 

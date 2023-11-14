@@ -12,6 +12,11 @@ namespace App.Controllers
         {
             _logger = logger;
         }
+        public ActionResult Error(int statusCode)
+        {
+            var model = new ErrorViewModel { StatusCode = statusCode };
+            return View(model);
+        }
 
         public IActionResult Index()
         {
@@ -27,10 +32,11 @@ namespace App.Controllers
         {
             return View();
         }
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        public IActionResult LearnMore()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+  
     }
 }

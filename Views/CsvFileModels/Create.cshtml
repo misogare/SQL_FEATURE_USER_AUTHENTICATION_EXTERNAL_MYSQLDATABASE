@@ -4,6 +4,58 @@
     ViewData["Title"] = "Create";
 }
 
+<style>
+
+    h1{
+        font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    }
+
+    #button1 {
+        background-color: #949494;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 19px;
+        margin: 8px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        color: white;
+    }
+
+        #button1:hover {
+            background-color: #D3D3D3;
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            color: black;
+        }
+
+    .button {
+        border: none;
+        background-color: #e5e5e5;
+        border-radius: 20px;
+        color: black;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: 17px;
+        padding: 0.6em 1.5em;
+    }
+
+        .button:hover {
+            background-position: right center;
+            background-size: 200% auto;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse512 1.5s infinite;
+            background-color: rgb(216, 215, 215);
+        }
+
+        </style>
+<div class="container">
 <h1>Create</h1>
 
 <h4>CsvFileModel</h4>
@@ -13,13 +65,17 @@
         <label asp-for="File">Select CSV File:</label>
         <input type="file" class="form-control-file" id="FileData" name="File" accept=".csv">
     </div>
-    <button type="submit" class="btn btn-primary">Upload</button>
+    <button id="button1" type="submit" class="btn btn-primary">Upload</button>
 </form>
 
+<br/>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="button">Back to List</a>
 </div>
 
+</div>
+
+<br />
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

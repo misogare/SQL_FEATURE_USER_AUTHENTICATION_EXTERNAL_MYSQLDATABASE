@@ -1,4 +1,5 @@
 ﻿using App.Data;
+using App.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
@@ -41,20 +42,26 @@ namespace App.Controllers
         {
             if (id == null || _context.CsvFileModel == null)
             {
-                return NotFound();
+                return RedirectToAction("Error", "Home", new { statusCode = 404 });
             }
 
             var csvFileModel = await _context.CsvFileModel
                 .FirstOrDefaultAsync(m => m.CsvFileModelID == id);
             if (csvFileModel == null)
             {
-                return NotFound();
+                return RedirectToAction("Error", "Home", new { statusCode = 404 });
             }
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
 
+            if (userRole != "Admin" && csvFileModel.UserId != userId)
+            {
+                return RedirectToAction("Error", "Home", new { statusCode = 403 });
+            }
             return View(csvFileModel);
         }
 
-
+      
 
         // GET: CsvFileModels/Create
         [HttpGet]
@@ -132,27 +139,24 @@ namespace App.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction("Error", "Home", new { statusCode = 404 });
             }
 
-            var csvFileModel = await _context.CsvFileModel.FirstOrDefaultAsync(m => m.CsvFileModelID == id);
+            var csvFileModel = await _context.CsvFileModel
+                .FirstOrDefaultAsync(m => m.CsvFileModelID == id);
             if (csvFileModel == null)
             {
-                return NotFound();
+                return RedirectToAction("Error", "Home", new { statusCode = 404 });
             }
-
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            // Check if the user is an admin or the owner of the file
-            if (userRole == "Admin" || csvFileModel.UserId == userId)
+            if (userRole != "Admin" && csvFileModel.UserId != userId)
             {
-                return View(csvFileModel);
+                return RedirectToAction("Error", "Home", new { statusCode = 403 });
             }
-            else
-            {
-                return Unauthorized();
-            }
+
+            return View(csvFileModel);
         }
 
         // POST: CsvFileModels/Delete/5
